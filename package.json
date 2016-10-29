@@ -1,0 +1,24 @@
+{
+  "name": "js-stack-from-scratch",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "lukew244 <luke.webster86@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "gulp"
+  },
+  "babel": {
+    "presets": [
+      "latest"
+    ]
+  },
+  "dependencies": {
+    "color": "^0.11.3"
+  },
+  "devDependencies": {
+    "babel-preset-latest": "^6.16.0",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2"
+  }
+}
