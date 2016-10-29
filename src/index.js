@@ -1,6 +1,8 @@
-/*jshint esversion: 6 */
+/* eslint-disable no-console */
+import Dog from './dog';
 
 const str = 'ES6';
-console.log(`Hello ${str}`);
+const shadow = new Dog('Shadow');
 
-console.log('test');
+console.log(`Hello ${str}`);
+console.log(shadow.bark());
